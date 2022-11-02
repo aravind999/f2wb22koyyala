@@ -12,5 +12,17 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "this is my second server\r [my server lin]:\"https://f2wb22koyyala.onrender.com/\"",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravind999/f2wb22koyyala.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravind999/f2wb22koyyala/issues"
+  },
+  "homepage": "https://github.com/aravind999/f2wb22koyyala#readme"
 }
