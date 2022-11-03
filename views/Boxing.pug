@@ -7,8 +7,8 @@ block content
   div.container-fluid
      div.row
         each item,index in result
-            div.col-sm-2(onclick=`buy(${index})`) Boxing_Style: #{item["BoxingStyle"]}  <br>  Gloves_Size: #{item["GlovesSize"]} <br> BoxingGloves_Color: #{item["BoxingGlovesColor"]}  
+            div.col-sm-2(onclick=`buy(${index})`) Boxing_Style: #{item["BoxingStyle"]}   Gloves_Size: #{item["GlovesSize"]}BoxingGloves_Color: #{item["BoxingGlovesColor"]}  
   script.
       function buy(index){
-         alert("you purchased item "+(index+1)) 
+         alert("you purchased Boxing gloves "+(index+1)) 
       }
