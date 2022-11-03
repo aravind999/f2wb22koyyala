@@ -1,10 +1,5 @@
-extends layout
-
-block content
-  h1= title
-  - var image_names = ["black.png","blue.png","kick.png","mma.png","ufc.png"];
-  - for(i=0;i<3;i++) {
-     - var randNum = Math.floor(Math.random()*5) ;
-     img(src=`./images/${image_names[randNum]}` alt=`img${image_names[randNum]}` style='width:300px; height:300px;')
-
-  -}
+- var image_names = ["black", "blue", "kick", "mma", "mma"]
+  - for(let i = 0; i < 3; i++) {
+    - let number = Math.floor(Math.random() * 5)
+        img(src=`/images/${image_names[number]}.png`, alt="different images every time", height="300px", width="300px")
+  - }
